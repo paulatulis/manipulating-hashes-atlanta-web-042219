@@ -17,6 +17,7 @@ def first_challenge
     stats = :favorite_icecream_flavors["strawberry"]
 end
 end
+end 
 contacts
 end
 
