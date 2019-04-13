@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  contacts.each do |people, stats|
+  contacts.delete_if do |people, stats|
     if stats = :favorite_icecream_flavors 
       :favorite_icecream_flavors.delete_if("strawberry")
 end
