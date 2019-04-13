@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.each do |people, stats|
+    if stats = :
 
 end
 end
