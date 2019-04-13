@@ -14,8 +14,8 @@ def first_challenge
   }
 
   contacts.each do |people, stats|
-    stats.delete_if 
-    stats = :favorite_icecream_flavors["strawberry"]
+    stats.delete_if do |thing, value|
+      value == :favorite_icecream_flavors["strawberry"]
 end
 end
 end 
